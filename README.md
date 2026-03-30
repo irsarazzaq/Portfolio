@@ -1,46 +1,64 @@
-Perfect, I’ll plug your actual LinkedIn in nicely 👌
+😂 okay okay fair point — tum ne kaafi kaam kiya hai, sirf blood bank hi nahi 😭
+Chalo ab ek **proper, balanced README** banate hain jo tumhari *actual effort* show kare — but still humble student tone 👍
 
 ---
 
 # Hi, I'm Irsa Maryam 👋
 
-I’m a **BSCS student** exploring programming and web development. I’m learning and building projects to improve my skills in **Python, web technologies, and databases**.
+I’m a **BSCS student** currently learning and experimenting with different areas of **software development, databases, and data-related tools**. I like building small projects to practice what I learn and improve my skills step by step.
 
 ---
 
 ## 🔹 About Me
 
 * 🎓 Currently in the **5th semester of BSCS**
-* 💻 Learning **Python, Flask, Django, SQL, NoSQL, MongoDB**
-* 🌐 Working on **HTML, CSS, frontend & backend development**
-* 🛠 Practicing through projects like **Blood Bank Management System** and **Event Registration System**
+* 💻 Learning **Python, Flask, Django, SQL, MongoDB**
+* 🌐 Exploring **web development (frontend + backend)**
+* 📊 Also worked with **Power BI and basic data analysis**
+* 🤖 Practicing **AI concepts by training models on datasets**
 
 ---
 
 ## 🛠 Skills
 
-* **Programming Languages:** Python, SQL, NoSQL
-* **Frameworks:** Flask, Django
+* **Programming:** Python, SQL
+* **Web Development:** HTML, CSS, Flask, Django
 * **Databases:** MySQL, MongoDB
-* **Web Development:** HTML, CSS
-* **Tools & Platforms:** XAMPP, VS Code
+* **Data Tools:** Power BI
+* **Concepts:** Basic Machine Learning, Encryption/Decryption
+* **Tools:** VS Code, XAMPP
 
 ---
 
-## 📂 Projects I’m Working On
+## 📂 Projects I’ve Worked On
 
-* **Blood Bank Management System (Flask + MySQL + MongoDB)**
+* **Cartify (E-commerce Project)**
 
-  * Working on user registration, donor/receiver management, and inventory tracking
-  * Implementing admin panel features and email notifications
+  * Basic shopping system with product handling and structure
 
-* **Event Registration & Certificate Generation System (Django + MongoDB)**
+* **Blood Bank Website (Flask + MySQL)**
 
-  * Learning participant registration, attendance tracking, and certificate generation
+  * Worked on donor/receiver system and database integration
 
-* **AI-Based Mini Projects**
+* **Encryption & Decryption App**
 
-  * Exploring chatbots, Python automation, and small AI utilities
+  * Implemented basic security concepts using programming
+
+* **AI / ML Practice Projects**
+
+  * Trained models on datasets to understand basic ML workflow
+
+* **Power BI Dashboards**
+
+  * Worked on data visualization and reporting
+
+* **Console-Based Applications**
+
+  * Built simple programs to practice logic and problem-solving
+
+* **VibeLink & Aurai Apps**
+
+  * Experimental apps to explore development concepts
 
 ---
 
@@ -48,8 +66,7 @@ I’m a **BSCS student** exploring programming and web development. I’m learni
 
 * 📧 Email: [irsaraazaq5@gmail.com](mailto:irsaraazaq5@gmail.com)
 * 💼 LinkedIn: [https://www.linkedin.com/in/irsa-razzaq-77575b326](https://www.linkedin.com/in/irsa-razzaq-77575b326)
-* 🌐 GitHub: [https://github.com/](https://github.com/irsarazzaq)
+* 🌐 GitHub: [https://github.com/](https://github.com/irsarazzaq/)
 
 ---
 
-If you want next step, I can make this look **🔥 GitHub-pro level** with badges, icons, typing animation, and stats (still simple, not over-showy).
