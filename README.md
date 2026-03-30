@@ -1,5 +1,3 @@
-😂 okay okay fair point — tum ne kaafi kaam kiya hai, sirf blood bank hi nahi 😭
-Chalo ab ek **proper, balanced README** banate hain jo tumhari *actual effort* show kare — but still humble student tone 👍
 
 ---
 
