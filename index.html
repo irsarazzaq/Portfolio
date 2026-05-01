@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irsa Maryam | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #05070a; color: #e2e8f0; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .nav-blur { background: rgba(5, 7, 10, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid #1e293b; }
+        .card-dark { background: #0f172a; border: 1px solid #1e293b; transition: 0.3s; }
+        .card-dark:hover { border-color: #3b82f6; transform: translateY(-5px); }
+        .skill-badge { background: rgba(59, 130, 246, 0.1); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        input, textarea { background: #05070a !important; border: 1px solid #1e293b !important; color: white !important; }
+        input:focus { border-color: #3b82f6 !important; outline: none; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 nav-blur py-4 px-6 md:px-12 flex justify-between items-center">
+        <h1 class="text-xl font-bold tracking-tight text-white uppercase">Irsa <span class="text-blue-500">Maryam</span></h1>
+        <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest">
+            <a href="#home" class="hover:text-blue-500 transition">Home</a>
+            <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
+            <a href="#projects" class="hover:text-blue-500 transition">Projects</a>
+            <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex flex-col justify-center px-6 md:px-12 max-w-7xl mx-auto">
+        <p class="text-blue-500 font-mono mb-4">6th Semester BSCS</p>
+        <h1 class="text-5xl md:text-8xl font-black text-white mb-6">Software <br><span class="text-blue-500">Developer.</span></h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed mb-8">
+            Expertise in **Backend Systems**, **Database Integration**, and **Data Analysis**. 
+            I build functional, scalable software with a focus on logic and efficiency.
+        </p>
+        <div class="flex items-center space-x-6">
+            <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded font-bold transition">View My Work</a>
+            <div class="flex space-x-4 text-2xl text-slate-500">
+                <a href="https://github.com/irsarazzaq" target="_blank" class="hover:text-white"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/irsa-razzaq-77575b326" target="_blank" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12">Technical Stack</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div>
+                <h3 class="text-blue-500 font-bold mb-4 uppercase text-sm tracking-widest">Programming</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Python</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">C++</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">JAVA</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">PHP</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">SQL</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-blue-500 font-bold mb-4 uppercase text-sm tracking-widest">Web & DB</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Flask</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Django</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">MySQL</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">MongoDB[</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">HTML/CSS</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-blue-500 font-bold mb-4 uppercase text-sm tracking-widest">Tools & AI</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Power BI</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Tableau</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">ML Basics</span>
+                    <span class="skill-badge px-3 py-1 rounded text-xs font-bold">Encryption</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">Blood Bank System</h4>
+                <p class="text-slate-400 text-sm mb-4">Web-based donor/receiver management with Flask and MySQL integration.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">Full Stack</span>
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">Cartify App</h4>
+                <p class="text-slate-400 text-sm mb-4">E-commerce shopping platform focusing on product handling and backend logic.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">Backend</span>
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">Security Tool</h4>
+                <p class="text-slate-400 text-sm mb-4">Python application implementing file encryption and decryption algorithms.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">InformationSecurity</span>
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">BI Dashboards</h4>
+                <p class="text-slate-400 text-sm mb-4">Interactive data visualization and analysis using Power BI and Tableau.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">Data Analysis</span>
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">ML Workflow</h4>
+                <p class="text-slate-400 text-sm mb-4">Training and evaluating models on datasets for predictive insights.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">Machine Learning</span>
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">VibeLink/Aurai</h4>
+                <p class="text-slate-400 text-sm mb-4">Applications built to explore development ideas and logic.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">Android Development</span>
+
+            </div>
+            <div class="card-dark p-6 rounded-lg">
+                <h4 class="text-white font-bold text-xl mb-2">SecureVault</h4>
+                <p class="text-slate-400 text-sm mb-4">C Sharp application implementing file encryption and decryption algorithms.</p>
+                <span class="text-blue-500 text-[10px] font-bold tracking-widest uppercase">visual Programming</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 md:px-12 max-w-5xl mx-auto border-t border-slate-800">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold text-white mb-6">Contact Me</h2>
+                <div class="space-y-4 text-slate-400">
+                    <p><i class="fas fa-envelope text-blue-500 mr-2"></i> irsaraazaq5@gmail.com</p>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/mlgzdgdo" method="POST" class="space-y-4">
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="text" name="name" placeholder="Your Name" required class="p-4 rounded text-sm w-full">
+                    <input type="email" name="email" placeholder="Your Email" required class="p-4 rounded text-sm w-full">
+                </div>
+                <textarea name="message" rows="4" placeholder="Your Message" required class="p-4 rounded text-sm w-full"></textarea>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded w-full transition uppercase text-xs tracking-widest">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-600 text-xs border-t border-slate-900 uppercase tracking-widest">
+        &copy; 2026 Irsa Maryam &bull; Built with HTML, Tailwind & Passion
+    </footer>
+
+</body>
+</html>
