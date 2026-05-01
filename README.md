@@ -58,7 +58,7 @@ I’m a **BSCS student** currently learning and experimenting with different are
   * Experimental apps to explore development concepts
 
 ---
-
+live at https://irsarazzaq.github.io/Portfolio/
 ## 📫 Contact
 
 * 📧 Email: [irsaraazaq5@gmail.com](mailto:irsaraazaq5@gmail.com)
