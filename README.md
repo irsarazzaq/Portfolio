@@ -2,7 +2,6 @@
 ---
 
 # Hi, I'm Irsa Maryam 👋
-
 I’m a **BSCS student** currently learning and experimenting with different areas of **software development, databases, and data-related tools**. I like building small projects to practice what I learn and improve my skills step by step.
 
 ---
